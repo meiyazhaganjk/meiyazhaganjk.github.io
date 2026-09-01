@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research & Publications | Meiyazhagan Jaganathan</title>
+    
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="brand-logo">Meiyazhagan <span>Jaganathan</span></a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="research.html" class="nav-link active">Research</a>
+                <a href="talks.html" class="nav-link">Talks</a>
+                <a href="blogs.html" class="nav-link">Blogs</a>
+                <a href="softwares.html" class="nav-link">Softwares</a>
+                <a href="cv.html" class="nav-link">CV</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button id="themeToggle" class="icon-btn" aria-label="Toggle Theme">
+                    <i class="fa-regular fa-moon"></i>
+                </button>
+                <button id="mobileMenuBtn" class="icon-btn mobile-toggle" aria-label="Toggle Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Research & Publications</h2>
+                <p class="section-tagline">Browse peer-reviewed journals, conference proceedings, preprints, and thesis work</p>
+            </div>
+
+            <!-- Filter & Search Bar -->
+            <div class="filter-bar">
+                <input type="text" id="pubSearch" class="search-input" placeholder="Search by title, author, journal or keyword...">
+                <div class="filter-tags">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="journal">Journals</button>
+                    <button class="filter-btn" data-filter="conference">Conference</button>
+                    <button class="filter-btn" data-filter="preprint">Preprints</button>
+                </div>
+            </div>
+
+            <!-- Publication List -->
+            <div class="pub-list" id="pubList">
+                
+                <!-- Preprint -->
+                <article class="pub-card" data-category="preprint">
+                    <div class="pub-meta">
+                        <span class="pub-tag">Preprint</span>
+                        <span class="pub-year">2026</span>
+                    </div>
+                    <h3 class="pub-title">Parameter Estimation in Machining Dynamics with Regenerative Delay and Nonsmooth Friction using Physics-Informed Neural Networks</h3>
+                    <p class="pub-authors">Meiyazhagan Jaganathan, Vikram Pakrashi, & Aasifa Rounak</p>
+                    <p class="pub-journal"><em>Manuscript in preparation</em> (2026)</p>
+                </article>
+
+                <!-- Journal 1 -->
+                <article class="pub-card" data-category="journal">
+                    <div class="pub-meta">
+                        <span class="pub-tag">Journal Article</span>
+                        <span class="pub-year">2026</span>
+                    </div>
+                    <h3 class="pub-title">Interplay of nonsmoothness, time delay, and stochasticity in turning dynamics</h3>
+                    <p class="pub-authors">Meiyazhagan Jaganathan, Vikram Pakrashi, & Aasifa Rounak</p>
+                    <p class="pub-journal"><em>Communications in Nonlinear Science and Numerical Simulation</em>, 110149 (2026)</p>
+                    <a href="https://doi.org/10.1016/j.cnsns.2026.110149" target="_blank" class="btn-doi">
+                        DOI Link <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </article>
+
+                <!-- Journal 2 -->
+                <article class="pub-card" data-category="journal">
+                    <div class="pub-meta">
+                        <span class="pub-tag">Journal Article</span>
+                        <span class="pub-year">2025</span>
+                    </div>
+                    <h3 class="pub-title">Experimental insights into orthogonal cutting via high-speed camera tests</h3>
+                    <p class="pub-authors">Meiyazhagan Jaganathan, D. Reilly, K. Nolan, & Aasifa Rounak</p>
+                    <p class="pub-journal"><em>IFAC-PapersOnLine</em>, 59(21), 107–112 (2025)</p>
+                    <a href="https://doi.org/10.1016/j.ifacol.2025.11.596" target="_blank" class="btn-doi">
+                        DOI Link <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </article>
+
+                <!-- Journal 3 -->
+                <article class="pub-card" data-category="journal">
+                    <div class="pub-meta">
+                        <span class="pub-tag">Journal Article</span>
+                        <span class="pub-year">2023</span>
+                    </div>
+                    <h3 class="pub-title">Data-driven multi-valley dark solitons of multi-component Manakov model using physics-informed neural networks</h3>
+                    <p class="pub-authors">Meiyazhagan Jaganathan, Tamil Arasan Bakthavatchalam, et al.</p>
+                    <p class="pub-journal"><em>Chaos, Solitons & Fractals</em>, 172, 113509 (2023)</p>
+                    <a href="https://doi.org/10.1016/j.chaos.2023.113509" target="_blank" class="btn-doi">
+                        DOI Link <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </article>
+
+                <!-- Journal 4 -->
+                <article class="pub-card" data-category="journal">
+                    <div class="pub-meta">
+                        <span class="pub-tag">Journal Article</span>
+                        <span class="pub-year">2022</span>
+                    </div>
+                    <h3 class="pub-title">Data driven soliton solution of the nonlinear Schrödinger equation with certain PT-symmetric potentials via deep learning</h3>
+                    <p class="pub-authors">J Meiyazhagan, K. Manikandan, J. B. Sudharsan, & M. Senthilvelan</p>
+                    <p class="pub-journal"><em>Chaos</em>, 32(5) (2022)</p>
+                    <a href="https://doi.org/10.1063/5.0086038" target="_blank" class="btn-doi">
+                        DOI Link <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </article>
+
+                <!-- Journal 5 -->
+                <article class="pub-card" data-category="journal">
+                    <div class="pub-meta">
+                        <span class="pub-tag">Journal Article</span>
+                        <span class="pub-year">2021</span>
+                    </div>
+                    <h3 class="pub-title">Prediction of occurrence of extreme events using machine learning</h3>
+                    <p class="pub-authors">J Meiyazhagan, S. Sudharsan, A. Venkatesan, & M. Senthilvelan</p>
+                    <p class="pub-journal"><em>The European Physical Journal Plus</em>, 137(1), 16 (2021)</p>
+                    <a href="https://doi.org/10.1140/epjp/s13360-021-02249-3" target="_blank" class="btn-doi">
+                        DOI Link <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </article>
+
+                <!-- Journal 6 -->
+                <article class="pub-card" data-category="journal">
+                    <div class="pub-meta">
+                        <span class="pub-tag">Journal Article</span>
+                        <span class="pub-year">2021</span>
+                    </div>
+                    <h3 class="pub-title">Model-free prediction of emergence of extreme events in a parametrically driven nonlinear dynamical system by deep learning</h3>
+                    <p class="pub-authors">J Meiyazhagan, S. Sudharsan, & M. Senthilvelan</p>
+                    <p class="pub-journal"><em>The European Physical Journal B</em>, 94(8), 156 (2021)</p>
+                    <a href="https://doi.org/10.1140/epjb/s10051-021-00167-y" target="_blank" class="btn-doi">
+                        DOI Link <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </article>
+
+                <!-- Conference 1 -->
+                <article class="pub-card" data-category="conference">
+                    <div class="pub-meta">
+                        <span class="pub-tag">Conference Proceeding</span>
+                        <span class="pub-year">2023</span>
+                    </div>
+                    <h3 class="pub-title">Active learning for probabilistic machine learning-based modeling of dynamical systems</h3>
+                    <p class="pub-authors">T. A. Bakthavatchalam, S. Murugan, M. Vadivel, Meiyazhagan Jaganathan, et al.</p>
+                    <p class="pub-journal"><em>International Conference on Nonlinear Dynamics and Applications</em>, 399–408, Springer (2023)</p>
+                    <a href="https://doi.org/10.1007/978-3-031-50631-4_34" target="_blank" class="btn-doi">
+                        DOI Link <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </article>
+
+                <!-- Conference 2 -->
+                <article class="pub-card" data-category="conference">
+                    <div class="pub-meta">
+                        <span class="pub-tag">Conference Proceeding</span>
+                        <span class="pub-year">2022</span>
+                    </div>
+                    <h3 class="pub-title">Prediction of chaotic attractors in quasiperiodically forced logistic map using deep learning</h3>
+                    <p class="pub-authors">J Meiyazhagan & M. Senthilvelan</p>
+                    <p class="pub-journal"><em>Nonlinear Dynamics and Applications: Proceedings of ICNDA 2022</em>, 649–657, Springer (2022)</p>
+                    <a href="https://doi.org/10.1007/978-3-030-99792-2_53" target="_blank" class="btn-doi">
+                        DOI Link <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </article>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>© 2026 Meiyazhagan Jaganathan. All rights reserved.</p>
+            <a href="index.html">Back to Home</a>
+        </div>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/meiyjk/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:meiyazhagan.jaganathan@ucdconnect.ie"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://scholar.google.com/citations?user=sSWqxIkAAAAJ&hl=en&oi=ao" target="_blank" aria-label="Google Scholar"><i class="fa-brands fa-google-scholar"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

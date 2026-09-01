@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae | Meiyazhagan Jaganathan</title>
+    
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="brand-logo text-accent">Meiyazhagan Jaganathan</a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="research.html" class="nav-link">Research</a>
+                <a href="talks.html" class="nav-link">Talks</a>
+                <a href="blogs.html" class="nav-link">Blogs</a>
+                <a href="softwares.html" class="nav-link">Softwares</a>
+                <a href="cv.html" class="nav-link active">CV</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button id="themeToggle" class="icon-btn" aria-label="Toggle Theme">
+                    <i class="fa-regular fa-moon"></i>
+                </button>
+                <button id="mobileMenuBtn" class="icon-btn mobile-toggle" aria-label="Toggle Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="section">
+        <div class="container" style="max-width: 860px; text-align: center;">
+            <div class="section-header">
+                <h2 class="section-title">Curriculum Vitae</h2>
+                <p class="section-tagline">Download or view my academic background, research appointments, publications, and technical experience</p>
+            </div>
+
+            <!-- Download & View Card -->
+            <div class="card" style="padding: 3rem 2rem; margin-bottom: 3rem;">
+                <div style="font-size: 3.5rem; color: var(--accent); margin-bottom: 1rem;">
+                    <i class="fa-solid fa-file-pdf"></i>
+                </div>
+                <h3 style="margin-bottom: 0.5rem; font-family: var(--font-heading);">Meiyazhagan_Jaganathan_CV.pdf</h3>
+                <p style="margin-bottom: 1.75rem; color: var(--text-secondary);">
+                    Comprehensive CV covering PhD research, publications, conference presentations, mentoring, and awards.
+                </p>
+                
+                <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+                    <!-- View Online in New Tab -->
+                    <a href="meiyazhagan_jaganathan_cv.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i> View CV Online
+                    </a>
+                    
+                    <!-- Direct Force Download -->
+                    <a href="meiyazhagan_jaganathan_cv.pdf" download="Meiyazhagan_Jaganathan_CV.pdf" onclick="forceDownload(event, 'meiyazhagan_jaganathan_cv.pdf', 'Meiyazhagan_Jaganathan_CV.pdf')" class="btn btn-secondary">
+                        <i class="fa-solid fa-download"></i> Download PDF
+                    </a>
+                </div>
+            </div>
+
+            <!-- Structured Quick CV Summary -->
+            <div style="text-align: left;" class="card">
+                <h3 style="margin-bottom: 1.5rem; font-family: var(--font-heading); border-bottom: 1px solid var(--border-color); padding-bottom: 0.75rem;">
+                    Academic & Professional Snapshot
+                </h3>
+                
+                <div style="display: grid; gap: 1.75rem;">
+                    <!-- Research & Work Experience -->
+                    <div>
+                        <h4 style="color: var(--accent); font-size: 1.05rem; margin-bottom: 0.75rem;">Research & Professional Experience</h4>
+                        
+                        <div style="margin-bottom: 1rem;">
+                            <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
+                                <p style="color: var(--text-primary); font-weight: 700;">PhD Researcher</p>
+                                <span style="font-size: 0.825rem; color: var(--accent); font-weight: 600;">Jan 2023 – Present</span>
+                            </div>
+                            <p style="color: var(--text-secondary); font-size: 0.9rem;">School of Mechanical and Materials Engineering, University College Dublin, Ireland</p>
+                        </div>
+
+                        <div style="margin-bottom: 1rem;">
+                            <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
+                                <p style="color: var(--text-primary); font-weight: 700;">Research Intern (AI Research Lab)</p>
+                                <span style="font-size: 0.825rem; color: var(--accent); font-weight: 600;">Aug 2022 – Dec 2022</span>
+                            </div>
+                            <p style="color: var(--text-secondary); font-size: 0.9rem;">Saama Technologies, India</p>
+                        </div>
+
+                        <div>
+                            <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
+                                <p style="color: var(--text-primary); font-weight: 700;">Project Fellow</p>
+                                <span style="font-size: 0.825rem; color: var(--accent); font-weight: 600;">May 2021 – Apr 2022</span>
+                            </div>
+                            <p style="color: var(--text-secondary); font-size: 0.9rem;">Department of Nonlinear Dynamics, Bharathidasan University, India</p>
+                        </div>
+                    </div>
+
+                    <!-- Education -->
+                    <div style="border-top: 1px dashed var(--border-color); padding-top: 1.25rem;">
+                        <h4 style="color: var(--accent); font-size: 1.05rem; margin-bottom: 0.75rem;">Education</h4>
+                        
+                        <div style="margin-bottom: 1rem;">
+                            <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
+                                <p style="color: var(--text-primary); font-weight: 700;">Ph.D. in Mechanical Engineering</p>
+                                <span style="font-size: 0.825rem; color: var(--accent); font-weight: 600;">Jan 2023 – Nov 2026 (Expected)</span>
+                            </div>
+                            <p style="color: var(--text-muted); font-size: 0.9rem;">University College Dublin, Ireland</p>
+                        </div>
+
+                        <div style="margin-bottom: 1rem;">
+                            <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
+                                <p style="color: var(--text-primary); font-weight: 700;">M.Sc. in Physics</p>
+                                <span style="font-size: 0.825rem; color: var(--accent); font-weight: 600;">2018 – 2020</span>
+                            </div>
+                            <p style="color: var(--text-muted); font-size: 0.9rem;">Bharathidasan University, Tiruchirappalli, India</p>
+                        </div>
+
+                        <div>
+                            <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
+                                <p style="color: var(--text-primary); font-weight: 700;">B.Sc. in Physics</p>
+                                <span style="font-size: 0.825rem; color: var(--accent); font-weight: 600;">2015 – 2018</span>
+                            </div>
+                            <p style="color: var(--text-muted); font-size: 0.9rem;">Bharathiar University, Coimbatore, India</p>
+                        </div>
+                    </div>
+
+                    <!-- Research Focus -->
+                    <div style="border-top: 1px dashed var(--border-color); padding-top: 1.25rem;">
+                        <h4 style="color: var(--accent); font-size: 1.05rem; margin-bottom: 0.5rem;">Key Research Domains</h4>
+                        <p style="color: var(--text-secondary); font-size: 0.925rem;">
+                            Machine Learning, Nonlinear Dynamics, Machining Dynamics & Chatter, Inverse Parameter Estimation, Physics-Informed Neural Networks (PINNs) and Stochastic Bifurcations.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>© 2026 Meiyazhagan Jaganathan. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/meiyazhaganjk" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/meiyjk/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://orcid.org/0000-0001-8971-965X" target="_blank" aria-label="ORCID"><i class="fa-brands fa-orcid"></i></a>
+                <a href="mailto:meiyazhagan.jaganathan@ucdconnect.ie" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        function forceDownload(event, url, filename) {
+            if (window.location.protocol.startsWith('http')) {
+                event.preventDefault();
+                fetch(url)
+                    .then(response => {
+                        if (!response.ok) throw new Error('Network response was not ok');
+                        return response.blob();
+                    })
+                    .then(blob => {
+                        const blobUrl = window.URL.createObjectURL(blob);
+                        const tempLink = document.createElement('a');
+                        tempLink.style.display = 'none';
+                        tempLink.href = blobUrl;
+                        tempLink.download = filename;
+                        document.body.appendChild(tempLink);
+                        tempLink.click();
+                        document.body.removeChild(tempLink);
+                        window.URL.revokeObjectURL(blobUrl);
+                    })
+                    .catch(() => {
+                        window.location.href = url;
+                    });
+            }
+        }
+    </script>
+</body>
+</html>

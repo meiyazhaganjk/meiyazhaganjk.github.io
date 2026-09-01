@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs | Meiyazhagan Jaganathan</title>
+    
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="brand-logo">Meiyazhagan <span>Jaganathan</span></a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="research.html" class="nav-link">Research</a>
+                <a href="talks.html" class="nav-link">Talks</a>
+                <a href="blogs.html" class="nav-link active">Blogs</a>
+                <a href="softwares.html" class="nav-link">Softwares</a>
+                <a href="cv.html" class="nav-link">CV</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button id="themeToggle" class="icon-btn" aria-label="Toggle Theme">
+                    <i class="fa-regular fa-moon"></i>
+                </button>
+                <button id="mobileMenuBtn" class="icon-btn mobile-toggle" aria-label="Toggle Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Blogs & Notes</h2>
+                <p class="section-tagline">Thoughts on nonlinear dynamics, scientific machine learning, and research workflows</p>
+            </div>
+
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="pub-meta" style="margin-bottom: 0.75rem;">
+                        <span class="pub-tag">PINNs</span>
+                        <span class="pub-year">Coming Soon</span>
+                    </div>
+                    <h3>Demystifying Physics-Informed Neural Networks for Time-Delayed Systems</h3>
+                    <p>An exploratory breakdown of embedding governing differential equations with regenerative time delays into neural network loss functions.</p>
+                </div>
+
+                <div class="card">
+                    <div class="pub-meta" style="margin-bottom: 0.75rem;">
+                        <span class="pub-tag">Machining</span>
+                        <span class="pub-year">Coming Soon</span>
+                    </div>
+                    <h3>Understanding Chatter Instability in Turning Operations</h3>
+                    <p>A look into nonsmooth friction, regenerative effects, and how dynamical systems theory explains chatter behavior in manufacturing.</p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>© 2026 Meiyazhagan Jaganathan. All rights reserved.</p>
+            <a href="index.html">Back to Home</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
